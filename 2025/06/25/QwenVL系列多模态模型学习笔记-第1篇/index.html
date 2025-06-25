@@ -26,14 +26,14 @@
 <meta property="og:site_name" content="JinbiaoZhu">
 <meta property="og:description" content="第一代 Qwen-VL 2023.08-2023.10当时大多数的 LVLMs 都是以粗粒度的方式感知图像，缺乏图像细粒度感知的能力（包括目标定位和文本读取等）。基于当时的问题，Qwen 团队引入了一个新的视觉编码器和位置感知适配器，并且设计了一个三阶段训练的流程用于优化 Qwen-VL 模型。Qwen-VL 的特点：性能领先、支持多语言、支持任意交错的 “图像-文本” 数据、细粒度的视觉理解（例">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2025/06/25/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E4%BD%93%E7%B3%BBMMBench%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%BD%BF%E7%94%A8/wenvl_01.png">
+<meta property="og:image" content="http://example.com/qwenvl_01.png">
 <meta property="article:published_time" content="2025-06-25T08:02:32.000Z">
-<meta property="article:modified_time" content="2025-06-25T12:42:45.789Z">
+<meta property="article:modified_time" content="2025-06-25T14:36:25.202Z">
 <meta property="article:author" content="Jinbiao Zhu">
 <meta property="article:tag" content="多模态大模型">
 <meta property="article:tag" content="Qwen-VL">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/2025/06/25/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E4%BD%93%E7%B3%BBMMBench%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%BD%BF%E7%94%A8/wenvl_01.png">
+<meta name="twitter:image" content="http://example.com/qwenvl_01.png">
   
   
   
@@ -282,7 +282,7 @@
               <div class="markdown-body">
                 
                 <h1 id="第一代-Qwen-VL-2023-08-2023-10"><a href="#第一代-Qwen-VL-2023-08-2023-10" class="headerlink" title="第一代 Qwen-VL 2023.08-2023.10"></a>第一代 Qwen-VL 2023.08-2023.10</h1><p>当时大多数的 LVLMs 都是以<b>粗粒度</b>的方式感知图像，缺乏<u>图像细粒度感知</u>的能力（包括<b>目标定位</b>和<b>文本读取</b>等）。基于当时的问题，Qwen 团队引入了一个<u>新的视觉编码器</u>和<u>位置感知适配器</u>，并且设计了一个三阶段训练的流程用于优化 Qwen-VL 模型。Qwen-VL 的特点：性能领先、支持多语言、<strong>支持任意交错的 “图像-文本” 数据</strong>、<strong>细粒度的视觉理解</strong>（例如 OCR）。Qwen-VL 相较于之前的<b>图文多模态大模型</b>多了一个功能：视觉定位，就是可以<b>给出一个框</b>将你想要的地方框出来。</p>
-<h2 id="模型结构"><a href="#模型结构" class="headerlink" title="模型结构"></a>模型结构</h2><p><img src="/2025/06/25/%E5%A4%9A%E6%A8%A1%E6%80%81%E5%A4%A7%E6%A8%A1%E5%9E%8B%E8%AF%84%E6%B5%8B%E4%BD%93%E7%B3%BBMMBench%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%BD%BF%E7%94%A8/wenvl_01.png" srcset="/img/loading.gif" lazyload></p>
+<h2 id="模型结构"><a href="#模型结构" class="headerlink" title="模型结构"></a>模型结构</h2><p><img src="/qwenvl_01.png" srcset="/img/loading.gif" lazyload></p>
 <blockquote>
 <p>通常一个多模态 “视觉—语言” 模型包含三个结构：语言模型、视觉编码器和 “视觉—语言” 适配器。</p>
 </blockquote>
